@@ -1,0 +1,9 @@
+.menubar{
+ @apply relative w-[1.1875rem] h-[0.875rem] cursor-pointer;
+}
+.menuLink{
+ @apply font-tertiary text-lg font-medium -tracking-[0.0625rem] text-white lg:text-base lg:font-primary lg:font-normal;
+}
+.cancel{
+ @apply relative w-[1.4375rem] h-[1.4375rem] cursor-pointer mt-[2.12rem] ml-auto ;
+}
