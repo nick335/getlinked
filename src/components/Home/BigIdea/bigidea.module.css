@@ -1,0 +1,15 @@
+.header{
+ @apply text-sectionHeader font-secondary font-bold text-center leading-[133%] lg:text-left lg:leading-[110%];
+}
+.starDp{
+ @apply absolute w-2 h-2.5 top-2/4 -translate-y-2/4 -right-6 lg:right-0 lg:w-[1.875rem] lg:h-9;
+} 
+.bigIdea{
+ @apply relative w-full h-full;
+}
+.spiral{
+ @apply absolute left-2/4 -translate-x-2/4 rotate-[-40.92deg] w-[1.216rem] h-[1.42613rem] -bottom-[2rem] lg:w-[3.08938rem] lg:h-[3.62338rem] lg:-translate-x-full lg:left-full; 
+}
+.starLp{
+ @apply absolute top-[35%] -left-1 w-[0.6875rem] h-[0.8125rem] lg:w-[1.3125rem] lg:h-[1.5625rem];
+}

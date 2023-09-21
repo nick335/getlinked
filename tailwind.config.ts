@@ -12,6 +12,7 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'heroBg': "url('/images/home/hero/heroBg.png')"
       },
       fontFamily: {
         secondary: ['var(--font-ClashDisplay)'],
@@ -19,7 +20,8 @@ const config: Config = {
         tertiary: ['var(--font-inter)']
       },
       colors: {
-        primaryBg: '#150E2B',
+        primaryBg: '#150E28',
+        bigIdeaBg: '#140D27',
         highlighttxt: '#D434FE',
         borderline: 'rgba(225, 225, 225, 0.18)'
       },
@@ -36,7 +38,12 @@ const config: Config = {
       animation: {
         'slideIn': 'slidein 0.3s ease-in-out  both',
         'slideOut': 'slideout 0.5s ease-in-out both'
-      }
+      },
+      fontSize: {
+        heroHeader: 'clamp(2rem, 10vw, 3rem)',
+        heroHeaderLg: 'clamp(4rem, 7vw, 6rem)',
+        sectionHeader: 'clamp(1.25rem, 4vw, 2rem)'
+      },
     },
   },
   plugins: [],

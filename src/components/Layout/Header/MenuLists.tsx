@@ -20,7 +20,7 @@ const MenuLists = ({isOpen, toggleMenu}: props) => {
            />
   })
   return (
-    <div className={`fixed top-0 right-[-100%] w-full h-screen overflow-hidden bg-primaryBg z-[100000] px-[3rem] ${ isOpen ? 'animate-slideIn' : 'animate-slideOut' } lg:static lg:w-fit lg:h-fit lg:flex lg:items-center lg:gap-x-[7.56rem]`}>
+    <div className={`fixed top-0 right-[-100%] w-full h-screen overflow-hidden bg-primaryBg  px-[3rem] ${ isOpen ? 'animate-slideIn z-[100000]' : 'animate-slideOut' } lg:static  lg:w-fit lg:h-fit lg:flex lg:items-center lg:gap-x-[7.56rem] lg:bg-transparent`}>
       <div onClick={toggleMenu} className='lg:hidden '>
         <ResponsiveImage 
           url={cancel}

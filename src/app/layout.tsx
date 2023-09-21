@@ -4,6 +4,7 @@ import localFont from "next/font/local"
 import { Inter,  Montserrat } from 'next/font/google'
 import Header from '@/components/Layout/Header/Header'
 import Hero from '@/components/Home/Hero/Hero'
+import styles from '@/components/Home/Hero/hero.module.css'
 
 
 const inter = Inter({ 
@@ -63,9 +64,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${montserrat.className} ${ClashDisplay.variable} font-sans bg-primaryBg`}>
-        <div>
-          <Header />
-          <Hero />
+        <div className={styles.hero1bg}>
+          <div className={styles.herobg2}>
+            <Header />
+            <Hero />
+          </div>   
         </div>
         {children}
       </body>

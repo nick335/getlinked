@@ -1,0 +1,48 @@
+.hero1bg{
+ background: url('../../../../public/images/home/hero/mobilebg.png'),  -184.527px 3.278px / 146.745% 105.327% no-repeat;
+ background-blend-mode: hard-light;
+ background-size: 24.75rem 27.625rem;
+ background-repeat: no-repeat;
+ /* background-position: 10px -300px; */
+}
+@media only screen and (min-width: 1024px){
+ .hero1bg{
+  background: url('../../../../public/images/home/hero/bg.png');
+  background-size: 55.875rem 52.25rem;
+  background-repeat: no-repeat;
+ }
+ .herobg2{
+  /* background: url('../../../../public/images/home/hero/bg.png'), -0.25px 0px / 130.652% 100% no-repeat;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  background-size: 59.4375rem 62.125rem;
+  background-position: right -100px; */
+ }
+}
+.curvedline{
+ @apply absolute -bottom-[0.6rem] right-0 w-[7.1875rem] h-[0.4375rem] lg:w-[15.8125rem] lg:h-[0.69019rem];
+}
+.heroHeader{
+ @apply font-secondary font-bold text-heroHeader leading-tight lg:text-heroHeaderLg;
+}
+.chain{
+ @apply relative w-[2.04981rem] h-[2.04981rem] lg:!w-[5.375rem] lg:!h-[5.375rem];
+}
+.fire{
+ @apply relative w-[1.38244rem] h-[1.38244rem] lg:w-[3.625rem] lg:h-[3.625rem] lg:min-w-[3.625rem] lg:min-h-[3.625rem];
+}
+.bulb{
+ @apply absolute -top-3 right-[9%] w-[1.125rem] h-[1.625rem] lg:w-[3.3125rem] lg:h-[4.5625rem] lg:-top-11;
+}
+.brightstar{
+ @apply absolute -top-[0.82rem] left-[3.65rem] w-[0.625rem] h-3 lg:h-8 lg:w-[1.625rem] lg:-top-[6.19rem];
+}
+.dullstar1{
+ @apply absolute h-2 w-1.5 -top-[1.28rem] right-0 lg:h-8 lg:w-[1.625rem] lg:-top-[3.3rem] lg:-right-8 ;
+}
+.dullstar2{
+ @apply absolute h-2 w-1.5 bottom-[5rem] right-[25%] lg:h-8 lg:w-[1.625rem] lg:bottom-[7rem]  ;
+}
+.hero{
+ @apply relative w-full h-full;
+}
