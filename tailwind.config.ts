@@ -23,7 +23,11 @@ const config: Config = {
         primaryBg: '#150E28',
         bigIdeaBg: '#140D27',
         highlighttxt: '#D434FE',
-        borderline: 'rgba(225, 225, 225, 0.18)'
+        highlighttxt2: '#FF26B9',
+        borderline: 'rgba(225, 225, 225, 0.18)',
+        borderline2: '#D434FE',
+        qdark: '#A866FD',
+        qlight: '#D434FE',
       },
       keyframes: {
         slideout: {

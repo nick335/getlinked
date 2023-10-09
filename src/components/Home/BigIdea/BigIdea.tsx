@@ -29,7 +29,7 @@ const BigIdea = () => {
       />
      </div>
      <div className='lg:flex-1 lg:w-[calc(50%-3.405rem)]'>
-      <div className='w-fit relative mx-auto mt-[3.62rem] lg:w-full lg:mx-0 '>
+      <div className='w-fit relative mx-auto mt-[3.62rem] lg:w-full lg:mx-0 lg:mt-0'>
        <h3 className={`${styles.header}`}>Introductiontogetlinked</h3>
        <h3 className={`${styles.header} text-highlighttxt`}>tech Hackathon 1.0</h3>
        <ResponsiveImage 

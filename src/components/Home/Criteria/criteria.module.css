@@ -1,0 +1,15 @@
+.header{
+ @apply text-sectionHeader font-secondary font-bold text-center leading-[133%] lg:text-left lg:leading-[110%];
+}
+.criteria{
+ @apply relative w-full h-full;
+}
+.starDp{
+ @apply absolute w-[0.8125rem] h-[1.0625rem] -top-[3.46rem] left-[45%] -translate-x-[45%] lg:w-[1.875rem] lg:h-9 lg:-top-[5.3rem] lg:left-[22%] lg:-translate-x-[22%];
+}
+.starLp{
+ @apply absolute w-3 h-3.5 bottom-[44%] -translate-y-[44%] right-[43%] -translate-x-[43%] lg:w-[1.625rem] lg:h-8;
+}
+.starw{
+ @apply absolute w-2.5 h-3 -right-[5.2rem] top-0 lg:w-[1.625rem] lg:h-8 lg:!-left-[5.625rem] lg:!bottom-0;
+}
